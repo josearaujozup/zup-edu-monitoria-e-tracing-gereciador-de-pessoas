@@ -48,7 +48,7 @@ public class PessoaController {
                     logger.warn("Pessoa com id {} não encontrada", id);
                     return new PessoaInexistenteException();
                 });
-        
+
         pessoaRepository.delete(pessoa);
 
         logger.info("Pessoa {} deletada com sucesso", pessoa.getNome());
