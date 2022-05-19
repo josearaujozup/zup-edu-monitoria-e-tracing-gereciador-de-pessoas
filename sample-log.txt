@@ -1,0 +1,64 @@
+670  [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+678  [main] INFO  org.springframework.boot.StartupInfoLogger - Starting PersonmanagerApplication using Java 17.0.2 on ZUP-3511 with PID 8832 (C:\Users\Jose.Araujo\Documents\ws-IntelliJ\gerenciador-pessoas-monitoria-e-tracing\target\classes started by Jose.Araujo in C:\Users\Jose.Araujo\Documents\ws-IntelliJ\gerenciador-pessoas-monitoria-e-tracing)
+679  [main] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+1312 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1375 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+1949 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1956 [main] INFO  org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+1956 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+1957 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2020 [main] INFO  org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+2021 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1302 ms
+2053 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2189 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2200 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2343 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2392 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2529 [main] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2643 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+3085 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3093 [main] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+3437 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3732 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+3773 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+3783 [main] INFO  org.springframework.boot.StartupInfoLogger - Started PersonmanagerApplication in 3.47 seconds (JVM running for 3.956)
+200303 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog - Initializing Spring DispatcherServlet 'dispatcherServlet'
+200304 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+200306 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.FrameworkServlet - Completed initialization in 2 ms
+217184 [http-nio-8080-exec-4] INFO  br.com.zup.edu.personmanager.model.PessoaController - Pessoa Denes cadastrada com sucesso
+280253 [http-nio-8080-exec-7] WARN  br.com.zup.edu.personmanager.model.PessoaController - Pessoa não pode ser cadastrada pois o CPF 120.088.260-15 já existe na base de dados
+615805 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+615806 [SpringApplicationShutdownHook] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+615810 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+615812 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+572  [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.2.Final
+581  [main] INFO  org.springframework.boot.StartupInfoLogger - Starting PersonmanagerApplication using Java 17.0.2 on ZUP-3511 with PID 9228 (C:\Users\Jose.Araujo\Documents\ws-IntelliJ\gerenciador-pessoas-monitoria-e-tracing\target\classes started by Jose.Araujo in C:\Users\Jose.Araujo\Documents\ws-IntelliJ\gerenciador-pessoas-monitoria-e-tracing)
+582  [main] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to 1 default profile: "default"
+1200 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1248 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+1811 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1819 [main] INFO  org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+1820 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+1820 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.58]
+1899 [main] INFO  org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+1899 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1281 ms
+1935 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2073 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2083 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2234 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2291 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2444 [main] INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2558 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+3033 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3039 [main] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+3370 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3660 [main] INFO  org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+3702 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+3711 [main] INFO  org.springframework.boot.StartupInfoLogger - Started PersonmanagerApplication in 3.456 seconds (JVM running for 3.889)
+25108 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25108 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+25109 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.FrameworkServlet - Completed initialization in 1 ms
+25348 [http-nio-8080-exec-2] INFO  br.com.zup.edu.personmanager.model.PessoaController - Pessoa Denes cadastrada com sucesso
+32461 [http-nio-8080-exec-3] WARN  br.com.zup.edu.personmanager.model.PessoaController - Pessoa não pode ser cadastrada pois o CPF 120.088.260-15 já existe na base de dados
+124390 [http-nio-8080-exec-6] INFO  br.com.zup.edu.personmanager.model.PessoaController - Pessoa Denes deletada com sucesso
+132490 [http-nio-8080-exec-5] WARN  br.com.zup.edu.personmanager.model.PessoaController - Pessoa com id 1 não encontrada
