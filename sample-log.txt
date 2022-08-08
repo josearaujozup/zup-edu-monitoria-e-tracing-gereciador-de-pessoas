@@ -62,3 +62,11 @@
 32461 [http-nio-8080-exec-3] WARN  br.com.zup.edu.personmanager.model.PessoaController - Pessoa não pode ser cadastrada pois o CPF 120.088.260-15 já existe na base de dados
 124390 [http-nio-8080-exec-6] INFO  br.com.zup.edu.personmanager.model.PessoaController - Pessoa Denes deletada com sucesso
 132490 [http-nio-8080-exec-5] WARN  br.com.zup.edu.personmanager.model.PessoaController - Pessoa com id 1 não encontrada
+5344577 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m31s76ms829µs400ns).
+8699464 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m54s696ms171µs600ns).
+8842420 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s955ms449µs900ns).
+11493084 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool$HouseKeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m10s504ms147µs800ns).
+14331880 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.AbstractEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14331890 [SpringApplicationShutdownHook] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+14331910 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14331920 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
